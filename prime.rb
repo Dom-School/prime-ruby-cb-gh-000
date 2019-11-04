@@ -1,6 +1,6 @@
 def prime?(num)
   return true if num == 2
-  return false if num < 0
+  return false if num < 2
   count = 2
   is_prime = true
   while count < num
